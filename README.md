@@ -14,4 +14,4 @@ Deze P1-lezer is gebaseerd op een ESP8266 WiFi-controller, de WeMos D1 Mini. Dat
 Je sluit de lezer met een zes-aderige RJ12-kabel aan op de meter. 
 
 ### De software
-Met het YAML-bestand kan je de ESP8266 programmeren. In deze versie is ook het uilezen van de gasmeter opgenomen.
+Met het YAML-bestand kan je de ESP8266 programmeren. In deze versie is ook het uitlezen van de gasmeter opgenomen.
