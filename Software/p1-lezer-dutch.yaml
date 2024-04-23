@@ -1,0 +1,66 @@
+esphome:
+  name: p1lezer
+
+esp8266:
+  board: nodemcuv2
+
+wifi:
+  ssid: "SSID_hier"
+  password: "Password_hier"
+
+logger:
+  baud_rate: 0
+  level: DEBUG
+
+uart:
+  baud_rate: 115200
+  rx_buffer_size: 1700
+  rx_pin: RX
+
+api:
+  password: ""
+
+dsmr:
+  request_pin: D5
+
+sensor:
+  - platform: dsmr
+    energy_delivered_tariff1:
+      name: "DSMR: Geleverde energie laag tarief"
+    energy_delivered_tariff2:
+      name: "DSMR: Geleverde energie hoog tarief"
+    energy_returned_tariff1:
+      name: "DSMR: Teruggeleverde energie laag tarief"
+    energy_returned_tariff2:
+      name: "DSMR: Teruggeleverde energie hoog tarief"
+    power_delivered:
+      name: "DSMR: Geleverd vermogen"
+    power_returned:
+      name: "DSMR: Teruggeleverd vermogen"
+    electricity_failures:
+      name: "DSMR: Uitval elektriciteit"
+    electricity_long_failures:
+      name: "DSMR: Uitval elektriciteit (lang)"
+    electricity_sags_l1:
+      name: "DSMR: Spanningsdips L1"
+    electricity_swells_l1:
+      name: "DSMR: Spanningspieken L1"
+    voltage_l1:
+      name: "DSMR: Spanning L1"
+    current_l1:
+      name: "DSMR: Stroom L1"
+    power_delivered_l1:
+      name: "DSMR: Geleverd vermogen L1"
+    power_returned_l1:
+      name: "DSMR: Teruggeleverd vermogen L1"
+    gas_delivered:
+      name: "DSMR: Geleverd gas"
+
+text_sensor:
+  - platform: dsmr
+    electricity_tariff:
+      name: "DSMR: Tarief"
+    message_long:
+      name: "DSMR: Bericht (lang)"
+    electricity_failure_log:
+      name: "DSMR: Elektriciteit-uitval-log"
