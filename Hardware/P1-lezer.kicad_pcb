@@ -4255,6 +4255,18 @@
 		(layer "Edge.Cuts")
 		(uuid "b5e6f18a-0606-49da-bb73-cafb1bae300c")
 	)
+	(gr_text "https://github.com/StoffelNL/P1-Lezer"
+		(at 103 96.2 0)
+		(layer "B.SilkS")
+		(uuid "bdcbbf86-3dd8-4c55-8052-1a5724ab550e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "P1-Lezer © 2024 StoffelNL"
 		(at 72 96.2 0)
 		(layer "F.SilkS")
