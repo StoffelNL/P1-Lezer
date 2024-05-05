@@ -975,6 +975,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "59852496-e69a-4691-a990-99143a87bc39")
 		(at 69 93.7)
@@ -4000,6 +4001,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "deb111a6-dfee-42fb-adad-e9156fe562a5")
 		(at 132.15 82)
@@ -4123,6 +4125,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fd1bb5f9-05f2-474a-a19d-3c49bedbdbdb")
 		(at 69 70.4)
