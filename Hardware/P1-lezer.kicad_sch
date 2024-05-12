@@ -1696,6 +1696,10 @@
 		(uuid "1fb10772-5aff-43fd-ab6a-5916fcca292e")
 	)
 	(no_connect
+		(at 190.5 81.28)
+		(uuid "7af9337f-a466-4e5e-b635-82c884f4212c")
+	)
+	(no_connect
 		(at 110.49 88.9)
 		(uuid "8b55738a-8450-4fe1-acb9-2aa46f897d93")
 	)
@@ -1706,10 +1710,6 @@
 	(no_connect
 		(at 190.5 91.44)
 		(uuid "bad25fe6-8db4-4da7-b07a-f6ec6fcc6734")
-	)
-	(no_connect
-		(at 190.5 83.82)
-		(uuid "cced9ea4-1e0e-4fa6-820d-b042d542ad97")
 	)
 	(no_connect
 		(at 132.08 121.92)
@@ -1969,7 +1969,7 @@
 	)
 	(global_label "Req"
 		(shape output)
-		(at 190.5 81.28 0)
+		(at 190.5 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1979,7 +1979,7 @@
 		)
 		(uuid "c8958b4e-5798-4de7-be15-673a90ce3ffb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9928 81.28 0)
+			(at 196.9928 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2932,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "220"
 			(at 151.13 121.92 90)
 			(effects
 				(font
@@ -2959,6 +2959,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 151.13 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 151.13 121.92 0)
 			(effects
 				(font
