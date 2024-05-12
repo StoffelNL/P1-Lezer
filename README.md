@@ -1,5 +1,8 @@
 Een P1-Lezer voor Home Assistant
 ========
+
+LET OP: Dit project is nog niet af! De print bevat een fout en werkt niet!!
+
 Dit is een simpele P1-lezer voor een 'slimme meter' die integreert met Home Assistant. De lezer is gebaseerd op een WiFi-controller zodat je 'm draadloos kunt verbinden met een home automation-systeem. De enige draad die je nodig hebt is om de lezer op de P1-poort van je slimme meter aan te sluiten.
 
 Onderdelen
