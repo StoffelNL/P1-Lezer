@@ -1,12 +1,12 @@
 Een P1-Lezer voor Home Assistant
 ========
 
-Dit is een simpele P1-lezer voor een 'slimme meter' die integreert met Home Assistant. De lezer is gebaseerd op een WiFi-controller zodat je 'm draadloos kunt verbinden met een home automation-systeem. De enige draad die je nodig hebt is om de lezer op de P1-poort van je slimme meter aan te sluiten.
+Dit is een simpele P1-lezer voor een 'slimme meter' die integreert met Home Assistant. De lezer is gebaseerd op een WiFi-controller zodat je 'm draadloos kunt verbinden met een home automation-systeem. De enige draad die je nodig hebt is een kabeltje om de lezer op de P1-poort van je slimme meter aan te sluiten.
 
 Onderdelen
 ----------
 Je vindt hier:
-- een Kicad-project met een schema, een printplaat en Gerber-bestanden
+- een KiCad-project met een schema, een printplaat en Gerber-bestanden
 waarmee je die print kunt laten maken.
 - een YAML-bestand voor ESPHome (https://esphome.io/) waarmee je de Wifi-controller kunt programmeren.
 
@@ -20,7 +20,7 @@ In de P1-aansluiting worden vijf van de zes pinnen gebruikt (in de volgorde van 
 2. Data Request
 3. Data Ground
 4. Not connected
-5. Data transmit
+5. Data Transmit
 6. Ground
 
 Deze lezer gebruikt ze allemaal. De 5 volt wordt gebruikt als voeding. De Data Request kan je gebruiken om het data-signaal te starten en stoppen (maar het hoeft niet). En de Data Transmit-lijn levert alle meetwaarden. De twee ground-aansluitingen worden aan elkaar gekoppeld.
