@@ -7,7 +7,7 @@
 	(title_block
 		(title "P1-lezer")
 		(date "2024-04-22")
-		(rev "A")
+		(rev "B")
 		(comment 1 "License: CERN-OHL-S-2.0 (https://ohwr.org/project/cernohl.git)")
 		(comment 4 "Source: https://github.com/StoffelNL/P1-Lezer")
 	)

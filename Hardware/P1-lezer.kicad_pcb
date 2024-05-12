@@ -4295,7 +4295,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev.A"
+	(gr_text "Rev.B"
 		(at 75.2 94.6 0)
 		(layer "F.SilkS")
 		(uuid "a1005ec6-fad2-4877-a496-c9d1a063037d")
