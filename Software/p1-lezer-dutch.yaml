@@ -21,7 +21,8 @@ api:
   password: ""
 
 dsmr:
-  request_pin: D5
+  request_pin: D4
+  request_interval: 0ms
 
 sensor:
   - platform: dsmr
