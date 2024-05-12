@@ -1684,16 +1684,16 @@
 		(uuid "0fbcc00d-3584-4f91-9fc0-f1fc0e0a0462")
 	)
 	(no_connect
-		(at 190.5 73.66)
-		(uuid "1dfdbe85-86ee-49f7-8257-96059ab012f5")
-	)
-	(no_connect
 		(at 190.5 76.2)
 		(uuid "1e4f76cb-deff-4130-8d77-865e4d08ffc0")
 	)
 	(no_connect
 		(at 190.5 86.36)
 		(uuid "1fb10772-5aff-43fd-ab6a-5916fcca292e")
+	)
+	(no_connect
+		(at 190.5 83.82)
+		(uuid "2ff63307-a93c-4987-80b4-d6d3069a82e5")
 	)
 	(no_connect
 		(at 190.5 81.28)
@@ -1969,7 +1969,7 @@
 	)
 	(global_label "Req"
 		(shape output)
-		(at 190.5 83.82 0)
+		(at 190.5 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1979,7 +1979,7 @@
 		)
 		(uuid "c8958b4e-5798-4de7-be15-673a90ce3ffb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9928 83.82 0)
+			(at 196.9928 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
