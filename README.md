@@ -28,5 +28,7 @@ In de P1-aansluiting worden vijf van de zes pinnen gebruikt (in de volgorde van 
 Deze lezer gebruikt ze allemaal. De 5 volt wordt gebruikt als voeding. De Data Request kan je gebruiken om het data-signaal te starten en stoppen (maar het hoeft niet). En de Data Transmit-lijn levert alle meetwaarden. De twee ground-aansluitingen worden aan elkaar gekoppeld.
 
 ### De software
-Met het YAML-bestand kan je de ESP8266 programmeren. In deze versie is ook het uitlezen van de gasmeter opgenomen. Heb je geen gekoppelde gasmeter dan kan je dat stukje uit de YAML verwijderen.
+Met het YAML-bestand kan je de ESP8266 programmeren. Je kunt dat doen vanuit Home Assistant door de ESPHome-integratie toe te voegen. Een andere methode is de command-line-versie van ESPHome installeren. Dan heb je ook nog Python nodig.
+
+In de YAML-code in deze repo is ook het uitlezen van de gasmeter opgenomen. Heb je geen gekoppelde gasmeter dan kan je dat stukje uit de YAML verwijderen.
 Voordat je de D1 Mini gaat progammeren moet je eerst de naam van jouw WiFi-netwerk invullen, met het bijbehorende wachtwoord.
