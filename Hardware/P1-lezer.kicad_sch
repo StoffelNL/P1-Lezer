@@ -558,7 +558,7 @@
 				)
 			)
 		)
-		(symbol "Isolator:TIL111"
+		(symbol "Isolator:CNY17-1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -574,7 +574,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TIL111"
+			(property "Value" "CNY17-1"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -583,18 +583,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-				(at -5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.egr.msu.edu/eceshop/Parts_Inventory/datasheets/til111.pdf"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -604,7 +593,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Optocoupler, Phototransistor NPN, DIP6"
+			(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 40-80%, Viso 5000V (RMS), DIP6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -622,7 +621,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W9.53mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -631,7 +630,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TIL111_0_1"
+			(symbol "CNY17-1_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -645,7 +644,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 -0.635) (xy -2.54 -0.635)
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -657,7 +656,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -1.397) (xy 3.81 -2.54)
+						(xy 2.921 -1.397) (xy 4.064 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -669,7 +668,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -1.143) (xy 3.81 0)
+						(xy 2.921 -1.27) (xy 1.905 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -681,7 +680,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -2.54) (xy 5.08 -2.54)
+						(xy 2.921 -1.143) (xy 4.064 0)
 					)
 					(stroke
 						(width 0)
@@ -693,7 +692,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0) (xy 5.08 0)
+						(xy 4.064 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -705,7 +704,55 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -0.254) (xy 2.667 -2.286) (xy 2.667 -2.286)
+						(xy 5.08 0) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.254) (xy 2.921 -2.286) (xy 2.921 -2.286)
 					)
 					(stroke
 						(width 0.3556)
@@ -717,19 +764,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -3.175 -2.54) (xy -3.175 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -3.81 0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -741,19 +776,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.683 -2.413) (xy 3.429 -1.905) (xy 3.175 -2.159) (xy 3.683 -2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 1.905 2.54) (xy 1.905 -1.27) (xy 2.54 -1.27)
+						(xy 3.937 -2.413) (xy 3.683 -1.905) (xy 3.429 -2.159) (xy 3.937 -2.413)
 					)
 					(stroke
 						(width 0)
@@ -788,7 +811,7 @@
 					)
 				)
 			)
-			(symbol "TIL111_1_1"
+			(symbol "CNY17-1_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2056,89 +2079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:TIL111")
-		(at 139.7 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14f2f1cd-5477-4ac9-b084-d9b00f9a7530")
-		(property "Reference" "U2"
-			(at 139.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TIL111"
-			(at 139.7 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.egr.msu.edu/eceshop/Parts_Inventory/datasheets/til111.pdf"
-			(at 139.7 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Phototransistor NPN, DIP6"
-			(at 139.7 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "868c6a58-c363-4b5b-93ad-de65f2cf5544")
-		)
-		(pin "1"
-			(uuid "1fabe9d3-12fc-4721-9bb0-d19809f4dea9")
-		)
-		(pin "6"
-			(uuid "d0d79e34-2473-4784-bd02-2593293243be")
-		)
-		(pin "3"
-			(uuid "9eddb892-e226-4ab2-88f6-9bb09db2e1b6")
-		)
-		(pin "5"
-			(uuid "bc4d562c-c190-4722-92e2-81b65e232da3")
-		)
-		(pin "2"
-			(uuid "54c5c2d3-5510-432e-bb67-94c563302569")
-		)
-		(instances
-			(project "P1-lezer"
-				(path "/4f595af1-343d-4a0f-a5c5-b8c737d0df25"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 132.08 110.49 180)
 		(unit 1)
@@ -3199,6 +3139,97 @@
 			(project "P1-lezer"
 				(path "/4f595af1-343d-4a0f-a5c5-b8c737d0df25"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:CNY17-1")
+		(at 139.7 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef3e654e-d300-45be-bea9-2f90ab026694")
+		(property "Reference" "U2"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CNY17-1"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 40-80%, Viso 5000V (RMS), DIP6"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f47365b0-c78d-4870-a7f6-3b064eb83e48")
+		)
+		(pin "6"
+			(uuid "f57c08e3-bbb5-4e40-8117-df2a68f20d71")
+		)
+		(pin "2"
+			(uuid "4aab4218-269f-46d6-8a9f-169a7f1d249c")
+		)
+		(pin "4"
+			(uuid "935401d8-eb5a-4536-b544-db2ea6828bfb")
+		)
+		(pin "5"
+			(uuid "19f2c4fb-6527-40e5-9225-e6c6bb7cc966")
+		)
+		(pin "1"
+			(uuid "017b1ed4-1595-4323-a394-9a8e3b35b3c6")
+		)
+		(instances
+			(project ""
+				(path "/4f595af1-343d-4a0f-a5c5-b8c737d0df25"
+					(reference "U2")
 					(unit 1)
 				)
 			)
