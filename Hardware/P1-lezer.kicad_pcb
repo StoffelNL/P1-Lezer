@@ -4347,6 +4347,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+5V"
+		(at 113.56 91.85 0)
+		(layer "F.SilkS")
+		(uuid "72b748f0-5f2e-4a6d-8f2f-3cac8eb4cd9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RST"
+		(at 131.84 73.68 0)
+		(layer "F.SilkS")
+		(uuid "76b51f55-14d5-4055-9feb-f4678d40f07d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Rev.B"
 		(at 75.2 94.6 0)
 		(layer "F.SilkS")
